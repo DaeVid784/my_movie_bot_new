@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install Dependencies
-        run: pip install pyTelegramBotAPI requests
+        run: pip install pyTelegramBotAPI requests groq
       - name: Run Bot
         run: python bot.py
